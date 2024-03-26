@@ -1,0 +1,61 @@
+main {
+
+  hr {
+    height: 2px;
+    background-color: rgb(255, 127, 39);
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  section {
+    margin: 4rem 1rem;
+  }
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .container-articles {
+    display: flex;
+    gap: 2rem;
+    overflow-x: scroll;
+    padding-bottom: 2rem;
+
+    article {
+      background-color: white;
+      text-align: center;
+      box-shadow: 0 3px 3px #CCCCCC;
+      border-radius: 3px;
+
+      a {
+        color: red;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+        line-height: 3rem;
+      }
+
+      span {
+        background-color: red;
+        color: white;
+        padding: 1rem;
+        border-radius: .3rem;
+      }
+    }
+  }
+}
+.coup-de-coeur {
+  justify-content: space-around;
+
+}
+main .container-articles article {
+  max-width: 150px;
+}
+
+@media screen and (min-width: 600px) {
+  .container-articles {
+    justify-content: center;
+  }
+}

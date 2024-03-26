@@ -1,0 +1,145 @@
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1eded;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+header h1 {
+  width: 30%;
+}
+header img {
+  width: 100%;
+}
+header nav {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+header input {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+header input ::placeholder {
+  color: grey;
+  font-weight: normal;
+}
+header .container-articles article {
+  max-width: 150px;
+}
+
+main hr {
+  height: 2px;
+  background-color: rgb(255, 127, 39);
+  max-width: 50%;
+  margin: 0 auto;
+}
+main section {
+  margin: 4rem 1rem;
+}
+main h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+main .container-articles {
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+  padding-bottom: 2rem;
+}
+main .container-articles article {
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 3px 3px #CCCCCC;
+  border-radius: 3px;
+}
+main .container-articles article a {
+  color: red;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+main .container-articles article span {
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.coup-de-coeur {
+  justify-content: space-around;
+}
+
+main .container-articles article {
+  max-width: 150px;
+}
+
+@media screen and (min-width: 600px) {
+  .container-articles {
+    justify-content: center;
+  }
+}
+footer {
+  background-color: #343A40;
+  padding: 3rem 2rem 2rem 2rem;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+footer aside {
+  margin-bottom: 2rem;
+}
+footer aside i {
+  color: orange;
+  font-size: 3rem;
+}
+footer aside i:not(:last-child) {
+  margin-right: 2rem;
+}
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0rem;
+  margin: 4rem 0;
+}
+footer nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  width: 49%;
+  padding: 1.2rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+footer {
+  background-color: #343A40;
+  padding: 3rem 2rem 2rem 2rem;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+
+  aside {
+    margin-bottom: 2rem;
+
+    i {
+      color: orange;
+      font-size: 3rem;
+
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0rem;
+    margin: 4rem 0;
+
+    a {
+      font-size: 1.8rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+      width: 49%;
+      padding: 1.2rem 0;
+    }
+  }
+}
